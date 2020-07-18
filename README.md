@@ -33,6 +33,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/marekdano/nextjs-blog&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
 
+(If you click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify)
+
 **Option two:** Manual clone
 
 1. Clone this repo: `git clone https://github.com/marekdano/nextjs-blog.git`
