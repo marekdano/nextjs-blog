@@ -31,7 +31,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 **Option one:** One-click deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-netlify-starter&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/marekdano/nextjs-blog&utm_source=github&utm_medium=nextstarter-cs&utm_campaign=devex)
 
 **Option two:** Manual clone
 
