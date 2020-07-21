@@ -6,14 +6,16 @@ export type Props = {
 	type: 'home' | 'post' | 'about' | 'contact' | 'success'
 }
 
+
 export default function Layout({ children }: Props) {
   return (
 		<div className="container">
 			<Head>
-				<meta name="twitter:site" content="@chibicode" />
+				<meta name="twitter:site" content="@marekdano" />
 				<title>My nextjs blog</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
+
 			{children}
 
 			<style jsx>{`

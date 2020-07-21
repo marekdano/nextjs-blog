@@ -1,7 +1,6 @@
-import Header from 'src/components/Header'
-import Footer from 'src/components/Footer'
-import ContactForm from 'src/components/ContactForm'
-import Layout from 'src/components/Layout'
+import Footer from 'components/Footer'
+import ContactForm from 'components/ContactForm'
+import Layout from 'components/Layout'
 
 export default function Home() {
   return (

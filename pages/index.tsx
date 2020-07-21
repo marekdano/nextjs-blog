@@ -1,7 +1,7 @@
 import Link from 'next/link'
-import Header from 'src/components/Header'
-import Footer from 'src/components/Footer'
-import Layout from 'src/components/Layout'
+import Header from 'components/Header'
+import Footer from 'components/Footer'
+import Layout from 'components/Layout'
 
 export default function Home() {
   return (
