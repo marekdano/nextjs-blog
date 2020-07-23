@@ -1,15 +1,9 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import Layout from 'components/Layout'
 
 export default function Success() {
   return (
-    <Layout type='success'>
-      <Head>
-        <title>Form submitted!!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <Layout meta={{ title: 'Form submitted!!'}} type='success'>
       <main>
         Hooray your form was submitted!
         <Link href="/">

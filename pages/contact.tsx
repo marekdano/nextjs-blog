@@ -1,4 +1,3 @@
-import Footer from 'components/Footer'
 import ContactForm from 'components/ContactForm'
 import Layout from 'components/Layout'
 
@@ -10,8 +9,6 @@ export default function Home() {
         <ContactForm />
       </main>
       
-      <Footer />
-
       <style jsx>{`
         main {
           padding: 5rem 0;
