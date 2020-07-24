@@ -1,8 +1,16 @@
-import Button from "../../components/Button"
-import Layout from "../../components/Layout"
+import Counter from "../../components/Counter"
+import Post from "../../components/Post"
 
-export default ({ children }) => <Layout>{children}</Layout>
+export const metadata = {
+	"title": "First post", 
+ 	"description": "This a description for the first post that was written by me", 
+ 	"date": "2020-01-01T18:00:00Z"
+}
 
-# This is my first post
+export default ({ metadata, children }) => <Post meta={metadata}>{children}</Post>
 
-<Button>Test btn</Button>
+# This is the post with the react component 
+
+Please click on button to interact with it!
+
+<Counter />
