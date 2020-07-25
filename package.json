@@ -9,6 +9,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@mapbox/rehype-prism": "^0.5.0",
     "@mdx-js/loader": "^1.6.11",
     "@next/mdx": "^9.4.4",
     "next": "9.4.4",
