@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout type="contact">
       <main>
-        Please subscribe to my newsletters
+        <h5 className="text-xs italic mb-2">Please subscribe to my newsletters</h5>
         <ContactForm />
       </main>
       

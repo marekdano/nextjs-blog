@@ -6,7 +6,7 @@ export default function Home() {
     <Layout type="home">
       <main>
         <Header />
-        <h5>Sample next app ;)</h5>
+        <h5>This is a simple next.js app ;)</h5>
       </main>
       <style jsx>{`
         main {

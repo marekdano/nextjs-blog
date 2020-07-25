@@ -16,7 +16,7 @@ export default function Counter({ children }) {
       }}
       onClick={() => setCount(count + 1)}
     >
-      Counter: {count}
+      {children} {count}x
     </button>
   )
 }

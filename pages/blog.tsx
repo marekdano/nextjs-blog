@@ -14,9 +14,8 @@ const BlogList = ({ allPosts }) => (
 						<h2>{post.frontmatter.title}</h2>
 						<p className="my-3">{post.frontmatter.description}</p>
 						<Link href={{ pathname: `/blog/${post.slug}` }}>
-							<a className="hover:underline">Read </a>
+							<a className="hover:underline">Read &rarr;</a>
 						</Link>
-						<span className="text-blue-600">&rarr;</span>
 					</div>
 				)
 			})}
@@ -24,12 +23,11 @@ const BlogList = ({ allPosts }) => (
 	</Layout>
 )
 
-export default BlogList
-
 export const getStaticProps = async () => {
-  const allPosts = getAllPosts()
-
-  return {
+	const allPosts = getAllPosts()
+	return {
     props: { allPosts },
   }
 }
+
+export default BlogList

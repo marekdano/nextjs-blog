@@ -7,10 +7,9 @@ export const metadata = {
  	"date": "2020-01-01T18:00:00Z"
 }
 
-export default ({ metadata, children }) => <Post meta={metadata}>{children}</Post>
+export default ({ children }) => <Post meta={metadata}>{children}</Post>
 
 # This is the post with the react component 
 
-Please click on button to interact with it!
 
-<Counter />
+<Counter>Click me!</Counter>

@@ -1,12 +1,16 @@
 import React from 'react'
-import Layout from 'components/Layout'
-
-export default function Post({ meta, children}) {
+import Link from 'next/link'
+import Layout from './Layout'
+ 
+export default function Post({ meta, children }) {
 	return (
 		<Layout meta={meta} type="blog" >
 			<main className="flex flex-1 flex-col">
 				{children}
-			</main>
+				<Link href="/blog">
+					<a className="mt-16 hover:underline">&larr; Back to blog</a>
+				</Link>
+			</main>			
 		</Layout>
 	)
 }

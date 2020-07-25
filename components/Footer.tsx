@@ -1,10 +1,11 @@
 function Footer() {
   return (
     <>
-      <footer>
-        Made with{' '}
-        <img src="/netliheart.svg" alt="Netlify Logo" className="logo" /> for
-        you
+      <footer className="text-xs">
+        Made with
+        <span className="px-1 font-semibold">Next.js</span> 
+        and
+        <span className="px-1 font-semibold">Tailwindcss</span>
       </footer>
       <style jsx>{`
         footer {

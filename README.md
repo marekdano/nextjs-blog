@@ -1,6 +1,8 @@
 # nextjs-blog
 Blog written in Next.js
 
+Check it at [marekdano-blog](https://marekdano-blog.netlify.app/)
+
 The app was bootstrap by running the command
 
 ```bash
